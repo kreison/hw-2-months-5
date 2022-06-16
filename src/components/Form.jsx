@@ -22,7 +22,7 @@ const Form = () => {
                 value={ input }
                 type="text" />
             <button
-                onClick={ (e) => setPosts([...posts, { name: input, id: Date.now() }])
+                onClick={ (e) => setPosts([...users, { name: input, id: Date.now() }])
                 }
             >
                 add
