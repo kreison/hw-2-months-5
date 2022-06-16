@@ -8,7 +8,6 @@ function App() {
 
   const deletePost = (post) => {
     const filtered = state.filter(state => state.id !== post)
-    console.log(filtered);
     dispath({ type: 'ADD_POST', payload: filtered });
   }
   return (

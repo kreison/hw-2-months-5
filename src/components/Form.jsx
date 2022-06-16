@@ -10,8 +10,8 @@ const Form = () => {
 
     ])
     useEffect((e) => {
+        setInput('');
         dispath({ type: 'ADD_POST', payload: posts });
-        console.log(users);
     }, [posts])
     return (
         <div>
